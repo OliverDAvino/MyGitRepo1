@@ -1,0 +1,9 @@
+Hello
+
+Command + Shift + .= Shows hidden folders
+
+Git init= Git initialize 
+
+Git status
+
+Staging files= getting ready to commit files
