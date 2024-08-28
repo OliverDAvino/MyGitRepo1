@@ -1,0 +1,97 @@
+1. 
+public class BusinessCard{
+    public static void main(String[]args){
+        String name1 = "OliverD'Avino";
+        String street1 = "557";
+        String street2 = "8Avenue";
+        String cost1 = "$5";
+        System.out.print("Name:");
+        System.out.println(name1);
+        System.out.print("Street Number:");
+        System.out.println(street1);
+        System.out.print("Street Name:");
+        System.out.println(street2);
+        System.out.print("Cost:");
+        System.out.println(cost1);
+        
+    }
+}
+
+2.
+public class Variables{
+    public static void main(String[]args){
+        String name1= "Oliver";
+        String name2=  "D'Avino";
+        System.out.println(name1+ " is my first name");
+        System.out.println(name2+ " is my last name");
+        System.out.println(name1.length());
+        System.out.println(name2.length());
+    }
+}
+
+3. Test1: 
+public class Nice{
+    public static void main(String[]args){
+        int x1 = 3;
+        int y1 = 4;
+        int x2 = 6;
+        int y2 = 8;
+        int a1 = (x2-x1);
+        int b1 = (y2-y1);
+        double c1 = Math.pow(a1,2);
+        double c2 = Math.pow(b1,2);
+        double result = Math.sqrt(c2+c1);
+        System.out.println(result);
+    }
+}
+5.0 
+
+Test 2: 
+public class Nicer{
+    public static void main(String[]args){
+        int x1 = -2;
+        int y1 = -3;
+        int x2 = 2;
+        int y2 = 1;
+        int a1 = (x2-x1);
+        int b1 = (y2-y1);
+        double c1 = Math.pow(a1,2);
+        double c2 = Math.pow(b1,2);
+        double result = Math.sqrt(c2+c1);
+        System.out.println(result);
+    }
+}
+
+4. 
+public class Books{
+    public static void main(String[]args){
+        String book1 = "Harry Potter Series";
+        String book2 = "Blue Lock Series";
+        String book3 = "Tokyo Ghoul Series";
+        System.out.println("My 3 favourite books/book series are, "+book1 +", "+book2+", and the "+book3 ".");
+    }
+}
+
+5.
+public class Budget{
+    public static void main(String[]args){
+        double total1 = 1000.0;
+        double food1 = 200.0;
+        double transport = 150.0;
+        double entertainment = 300.0;
+        double cost1 = (food1+transport+entertainment);
+        double result = (total1-cost1);
+        System.out.println(result);
+    }
+}
+
+6.
+
+public class Weeks{
+    enum Weekdays { MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY }
+    public static void main(String[]args){
+        Weekdays favourite;
+        favourite = Weekdays.SATURDAY;
+        System.out.println(favourite);
+    }
+}
